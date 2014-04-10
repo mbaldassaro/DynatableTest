@@ -1,0 +1,2 @@
+Testing DynaTable vs. DataTables Functionality
+   alert('it works');
