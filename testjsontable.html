@@ -2,7 +2,9 @@
 <head>
     <title>Dynatable Test</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="dynatable/jquery.dynatable.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.js"></script>
+ 
+<link  href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css" rel="stylesheet">
     <!-- this is not script it is a css file -->
     <!--script src="dynatable/jquery.dynatable.css"></script-->
     <script type="text/javascript" src="testgetjson.js"></script>
@@ -10,7 +12,7 @@
 </head>
 <body>
     <h1 id="title">Dynatable Test</h1>
-    <table id='my-table'>
+    <table id='my-table' class="dataTable">
         <thead>
             <th  >Year</th>
             <th >Constituency Number</th>
